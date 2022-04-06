@@ -1,0 +1,68 @@
+#logo
+{
+    padding: 50px 80px 150px 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuyvUNb1toCiljSaOBM8KEmm2vLlqmnUUDshl8ApqGzNG8OK80s1_xXa_OUYgCf0aSbH8&usqp=CAU);
+    background-repeat: no-repeat;
+}
+body
+{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+
+.boutons
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+figure
+{
+  overflow-y: visible;
+  padding-top: 40px;
+  box-shadow: 10px 5px 5px black;
+  background: rgb(180,171,58);
+  background: linear-gradient(90deg, rgba(180,171,58,0.3267507686668417) 16%, rgba(58,76,180,0.10546225326067926) 100%);
+}
+
+.boutons > a
+{
+  color: green;
+  background-color: red;
+  border-radius: 50px;
+  border: 10px solid red;
+  text-decoration: none;
+}
+
+.aboutme
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 40px;
+  /* margin-right: 10px; */
+  /* overflow-y:hidden; */
+  background: rgb(195,189,34);
+  background: linear-gradient(0deg, rgba(195,189,34,1) 0%, rgba(45,236,253,0.007423037574404767) 99%);
+}
+
+.presentation
+{
+  margin-left: -200px;
+  padding-left: 300px;
+  background: rgb(58,76,180);
+  background: linear-gradient(90deg, rgba(58,76,180,0.10546225326067926) 0%, rgba(58,76,180,0.8729692560617998) 91%, rgba(249,252,69,0.4247899843531162) 100%);
+}
+
+.links
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1
+{
+  font-size: 3em;
+}
